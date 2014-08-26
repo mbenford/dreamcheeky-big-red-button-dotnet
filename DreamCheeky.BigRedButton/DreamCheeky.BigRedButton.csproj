@@ -7,7 +7,7 @@
     <ProjectGuid>{C24D8F95-9973-4941-86DF-ADD4212DEAA3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DreamCheeky.BigRedButton</RootNamespace>
+    <RootNamespace>DreamCheeky</RootNamespace>
     <AssemblyName>DreamCheeky.BigRedButton</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Device.cs" />
     <Compile Include="DeviceStatus.cs" />
-    <Compile Include="DreamCheekyBigRedButton.cs" />
+    <Compile Include="BigRedButton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

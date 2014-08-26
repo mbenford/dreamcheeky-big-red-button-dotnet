@@ -2,7 +2,7 @@
 using System.Linq;
 using HidLibrary;
 
-namespace DreamCheeky.BigRedButton
+namespace DreamCheeky
 {
     class Device : IDisposable
     {
@@ -17,7 +17,7 @@ namespace DreamCheeky.BigRedButton
             device = HidDevices.Enumerate(vendorId, productId).FirstOrDefault();
 
             if (device == null)
-                throw new InvalidOperationException("Device not found. Be sure all required drivers are correctly installed.");
+                throw new InvalidOperationException("Device not found");
         }
 
         public void Open()

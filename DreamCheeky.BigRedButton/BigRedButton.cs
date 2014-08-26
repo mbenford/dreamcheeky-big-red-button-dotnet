@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Threading;
 
-namespace DreamCheeky.BigRedButton
+namespace DreamCheeky
 {
-    public class DreamCheekyBigRedButton : IDisposable
+    public class BigRedButton : IDisposable
     {
         private readonly Device device;
 
         private volatile bool terminated;
         private Thread thread;
 
-        public DreamCheekyBigRedButton()
+        public BigRedButton()
         {
             device = new Device();
         }

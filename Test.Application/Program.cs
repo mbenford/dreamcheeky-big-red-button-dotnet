@@ -1,5 +1,5 @@
 ﻿using System;
-using DreamCheeky.BigRedButton;
+using DreamCheeky;
 
 namespace Test.Application
 {
@@ -7,7 +7,7 @@ namespace Test.Application
     {
         static void Main()
         {
-            using (var bigRedButton = new DreamCheekyBigRedButton())
+            using (var bigRedButton = new BigRedButton())
             {
                 bigRedButton.LidClosed += (sender, args) => Console.WriteLine("Lid closed");
                 bigRedButton.LidOpen += (sender, args) => Console.WriteLine("Lid open");

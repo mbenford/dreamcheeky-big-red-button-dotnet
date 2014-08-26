@@ -1,4 +1,4 @@
-namespace DreamCheeky.BigRedButton
+namespace DreamCheeky
 {
     public enum DeviceStatus
     {
