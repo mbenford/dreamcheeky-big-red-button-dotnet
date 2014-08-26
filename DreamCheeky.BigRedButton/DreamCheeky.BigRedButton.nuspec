@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>DreamCheeky.BigRedButton</id>
+    <version>$version$</version>
+    <authors>Michael Benford</authors>
+    <owners>Michael Benford</owners>
+    <licenseUrl>https://github.com/mbenford/dreamcheeky-big-red-button-dotnet/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mbenford/dreamcheeky-big-red-button-dotnet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET class for Dream Cheeky's Big Red Button toy</description>
+    <copyright>Copyright 2014 Michael Benford</copyright>
+    <tags>WebApi</tags>
+    <dependencies>
+      <dependency id="hidlibrary" version="3.2.28.0" />
+    </dependencies>
+  </metadata>
+</package>
