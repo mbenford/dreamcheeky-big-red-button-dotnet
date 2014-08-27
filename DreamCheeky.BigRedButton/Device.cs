@@ -37,7 +37,7 @@ namespace DreamCheeky
                 return DeviceStatus.Errored;
             }
 
-            HidDeviceData data = device.Read();
+            HidDeviceData data = device.Read(100);
             if (data.Status != HidDeviceData.ReadStatus.Success)
             {
                 return DeviceStatus.Errored;
