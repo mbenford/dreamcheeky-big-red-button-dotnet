@@ -56,7 +56,7 @@ namespace DreamCheeky
         public void Stop()
         {
             terminated = true;
-            thread.Join();
+            thread.Join(TimeSpan.FromSeconds(10));
             device.Close();
         }
 
