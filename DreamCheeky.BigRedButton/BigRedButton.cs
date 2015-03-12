@@ -10,8 +10,11 @@ namespace DreamCheeky
         private volatile bool terminated;
         private Thread thread;
 
+        public TimeSpan PollingInterval { get; set; }
+
         public BigRedButton()
         {
+            PollingInterval = TimeSpan.FromMilliseconds(100);
             device = new Device();
         }
 
@@ -46,7 +49,7 @@ namespace DreamCheeky
                     
                     lastStatus = status;
                 }
-                Thread.Sleep(100);
+                Thread.Sleep(PollingInterval);
             }
         }
 
